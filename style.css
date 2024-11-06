@@ -1,0 +1,95 @@
+/* Basic styling for body and container */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f2f2f2;
+  margin: 0;
+}
+
+#app {
+  text-align: center;
+  max-width: 400px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+h1 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Input and Button styling */
+#search-input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+#search-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #ffcb05;
+  color: #3b4cca;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#search-button:hover {
+  background-color: #e2b100;
+}
+
+/* Pokémon information section */
+#pokemon-info {
+  margin-top: 20px;
+  color: #333;
+}
+
+#pokemon-info h2 {
+  font-size: 22px;
+  margin: 10px 0;
+}
+
+#pokemon-info p {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+/* Type styles */
+#types p {
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 5px 5px 0 0;
+  border-radius: 4px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+#types p:contains("ELECTRIC") {
+  background-color: #f8d030;
+}
+#types p:contains("GHOST") {
+  background-color: #705898;
+}
+#types p:contains("POISON") {
+  background-color: #a040a0;
+}
+
+/* Sprite container */
+#sprite-container img {
+  width: 150px;
+  height: auto;
+  margin-top: 15px;
+}
